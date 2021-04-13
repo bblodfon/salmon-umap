@@ -1,0 +1,65 @@
+R version 3.6.3 (2020-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.2 LTS, RStudio 1.3.1093
+
+Locale:
+  LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8       
+  LC_COLLATE=en_US.UTF-8     LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+  LC_PAPER=en_US.UTF-8       LC_NAME=C                  LC_ADDRESS=C              
+  LC_TELEPHONE=C             LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+Package version:
+  abind_1.4-5              assertthat_0.2.1         backports_1.2.1         
+  base64enc_0.1-3          BH_1.72.0.3              boot_1.3.25             
+  brio_1.1.0               broom_0.7.3              callr_3.5.1             
+  car_3.0-10               carData_3.0-4            cellranger_1.1.0        
+  checkmate_2.0.0          cli_2.2.0                clipr_0.7.1             
+  cluster_2.1.0            codetools_0.2-18         colorspace_2.0-0        
+  compiler_3.6.3           conquer_1.0.2            corrplot_0.84           
+  cowplot_1.1.0            cpp11_0.2.4              crayon_1.3.4            
+  crosstalk_1.1.0.1        curl_4.3                 data.table_1.13.4       
+  datasets_3.6.3           dendextend_1.14.0        desc_1.2.0              
+  diffobj_0.3.2            digest_0.6.27            dplyr_1.0.2             
+  dqrng_0.2.1              DT_0.16                  ellipse_0.4.2           
+  ellipsis_0.3.1           evaluate_0.14            factoextra_1.0.7        
+  FactoMineR_2.4           fansi_0.4.1              farver_2.0.3            
+  flashClust_1.01-2        FNN_1.1.3                forcats_0.5.0           
+  foreign_0.8-75           Formula_1.2-4            generics_0.1.0          
+  ggplot2_3.3.2            ggpubr_0.4.0             ggrepel_0.9.0           
+  ggsci_2.9                ggsignif_0.6.0           glue_1.4.2              
+  graphics_3.6.3           grDevices_3.6.3          grid_3.6.3              
+  gridExtra_2.3            gtable_0.3.0             haven_2.3.1             
+  highr_0.8                Hmisc_4.5-0              hms_0.5.3               
+  htmlTable_2.1.0          htmltools_0.5.0          htmlwidgets_1.5.3       
+  irlba_2.3.3              isoband_0.2.3            jpeg_0.1-8.1            
+  jsonlite_1.7.2           knitr_1.30               labeling_0.4.2          
+  later_1.1.0.1            lattice_0.20-41          latticeExtra_0.6-29     
+  lazyeval_0.2.2           leaps_3.1                lifecycle_0.2.0         
+  lme4_1.1.26              magrittr_2.0.1           maptools_1.0.2          
+  markdown_1.1             MASS_7.3-53              Matrix_1.2-18           
+  MatrixModels_0.4.1       matrixStats_0.57.0       methods_3.6.3           
+  mgcv_1.8.33              mime_0.9                 minqa_1.2.4             
+  munsell_0.5.0            nlme_3.1.151             nloptr_1.2.2.2          
+  nnet_7.3-14              openxlsx_4.2.3           parallel_3.6.3          
+  pbkrtest_0.4.8.6         pillar_1.4.7             pkgbuild_1.2.0          
+  pkgconfig_2.0.3          pkgload_1.1.0            plyr_1.8.6              
+  png_0.1-7                polynom_1.4.0            praise_1.0.0            
+  prettyunits_1.1.1        processx_3.4.5           progress_1.2.2          
+  promises_1.1.1           ps_1.5.0                 purrr_0.3.4             
+  quantreg_5.75            R6_2.5.0                 RColorBrewer_1.1-2      
+  Rcpp_1.0.5               RcppAnnoy_0.0.17         RcppArmadillo_0.10.1.2.0
+  RcppEigen_0.3.3.7.0      RcppProgress_0.4.2       readr_1.4.0             
+  readxl_1.3.1             rematch_1.0.1            rematch2_2.1.2          
+  reshape2_1.4.4           rio_0.5.16               rlang_0.4.9             
+  rpart_4.1-15             rprojroot_2.0.2          RSpectra_0.16-0         
+  rstatix_0.6.0            rstudioapi_0.13          scales_1.1.1            
+  scatterplot3d_0.3-41     scrime_1.3.5             sitmo_2.0.1             
+  sp_1.4.4                 SparseM_1.78             splines_3.6.3           
+  statmod_1.4.35           stats_3.6.3              stringi_1.5.3           
+  stringr_1.4.0            survival_3.2-7           testthat_3.0.0          
+  tibble_3.0.4             tidyr_1.1.2              tidyselect_1.1.0        
+  tools_3.6.3              usefun_0.4.8             utf8_1.1.4              
+  utils_3.6.3              uwot_0.1.8               vctrs_0.3.5             
+  viridis_0.5.1            viridisLite_0.3.0        waldo_0.2.3             
+  withr_2.3.0              xfun_0.19                yaml_2.2.1              
+  zip_2.1.1               
