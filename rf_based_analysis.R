@@ -10,6 +10,7 @@ library(scrime)
 library(Hmisc)
 library(purrr)
 library(uwot)
+library(VennDiagram)
 
 ########################################################################
 # RF pre-processed dataset (~10000 features, for Geography prediction) #
