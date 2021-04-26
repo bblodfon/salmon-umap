@@ -511,5 +511,5 @@ futile.logger::flog.threshold(futile.logger::ERROR, name = "VennDiagramLogger")
 VennDiagram::venn.diagram(x = list(geo_features, sex_features, poparea_features),
   category.names = c("Geography" , "Sex" , "Population Area"),
   main = 'Common SNP features',
-  filename = 'fig/venn.png', output = TRUE, imagetype = "png",
+  filename = 'venn.png', output = TRUE, imagetype = "png",
   lty = 'blank', fill = set1_col, cex = 2, margin = 0.1, cat.cex = 1.6)
